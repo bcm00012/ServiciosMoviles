@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'networkeffect';
+  src: url("/fonts/networkeffect.eot");
+  src: url("/fonts/networkeffect.eot?#iefix") format('embedded-opentype'), url("/fonts/networkeffect.woff") format('woff'), url("/fonts/networkeffect.ttf") format('truetype'), url("/fonts/networkeffect.svg#networkeffect") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: 'networkeffect';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 1em;
+  text-align: center;
+  opacity: 0.7;
+/* Uncomment for 3D effect */
+text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+/* fix buttons height */
+  line-height: 1em;
+/* you can be more comfortable with increased icons size */
+ font-size: 160%; */
+}
+
+.icon-star:before { content: '\2605'; } /* '★' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-feather:before { content: '\2712'; } /* '✒' */
+.icon-ok-1:before { content: '\e802'; } /* '' */
+.icon-minus-circle:before { content: '\2796'; } /* '➖' */
+.icon-info-circle:before { content: '\e705'; } /* '' */
+.icon-upload-cloud:before { content: '\e711'; } /* '' */
+.icon-comment-1:before { content: '\e800'; } /* '' */
+.icon-comment:before { content: '\e718'; } /* '' */
+.icon-location:before { content: '\e724'; } /* '' */
+.icon-facebook-rect:before { content: '\f301'; } /* '' */
+.icon-twitter-bird:before { content: '\f303'; } /* '' */
+.icon-googleplus-rect:before { content: '\f309'; } /* '' */
+.icon-skype:before { content: '\f30b'; } /* '' */
+.icon-linkedin-rect:before { content: '\f31b'; } /* '' */
+.icon-globe-1:before { content: '𝌍'; } /* '\1d30d' */
+.icon-globe:before { content: '🌐'; } /* '\1f310' */
+.icon-videocam-alt:before { content: '🏹'; } /* '\1f3f9' */
+.icon-thumbs-up-1:before { content: '\e803'; } /* '' */
+.icon-thumbs-down-1:before { content: '\e804'; } /* '' */
+.icon-user-1:before { content: '\e801'; } /* '' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
+.icon-calendar:before { content: '📅'; } /* '\1f4c5' */
+.icon-phone:before { content: '📞'; } /* '\1f4de' */
+.icon-bullhorn:before { content: '📣'; } /* '\1f4e3' */
+.icon-mobile:before { content: '📱'; } /* '\1f4f1' */
+.icon-shuffle:before { content: '🔀'; } /* '\1f500' */
+.icon-lock:before { content: '\1f512'; } /* '\1f512' */
+
+
+[class^="icon-"]:after,
+[class*=" icon-"]:after {
+  font-family: 'NovecentowideLightRegular';
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 1em;
+  text-align: center;
+  opacity: 0.3;
+/* Uncomment for 3D effect */
+text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+/* fix buttons height */
+  line-height: 1em;
+/* you can be more comfortable with increased icons size */
+ font-size: 160%; */
+ content: 'not available'; }
