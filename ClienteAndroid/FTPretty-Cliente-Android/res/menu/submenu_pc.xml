@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.p1.Activity_Explorer" >
+
+    <item
+        android:id="@+id/cnt_mnu_desc"
+        android:title="@string/str_cnt_mnu_desc"/>
+    <item
+        android:id="@+id/cnt_mnu_delete"
+        android:title="@string/str_cnt_mnu_delete"/>
+
+</menu>

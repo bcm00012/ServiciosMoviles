@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:showDividers="middle" 
+    android:background="#FFFFFF">
+   
+	<fragment   
+		android:name="com.example.p1.Fragment_Carrusel"
+		android:id="@+id/fragment2"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1"
+		android:gravity="bottom" />  
+	
+
+	<FrameLayout
+		android:id="@+id/framelayout_contenedor_detalle"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="5dp"
+		android:layout_weight="1" />
+
+</LinearLayout>

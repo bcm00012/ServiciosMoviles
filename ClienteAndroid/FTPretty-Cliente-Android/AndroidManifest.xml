@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.p1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icono2"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fragment_DatosUsuario"
+            android:label="@string/title_activity_fragment__detalle" >
+        </activity>
+        <activity
+            android:name=".Fragment_Carrusel"
+            android:label="@string/title_activity_fragment__estatico" >
+        </activity>
+        <activity
+            android:name=".ActivityDos"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".FragmentEmpezar"
+            android:label="@string/title_activity_fragment_uno" >
+        </activity>
+        <activity
+            android:name=".Activity_Explorer"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Fragment_Lista_Movil"
+            android:label="@string/title_activity_fragment__lista__movil" >
+            <intent-filter>
+                <action android:name="android.intent.action.PICK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.OPENABLE" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fragment_Lista_Pc"
+            android:label="@string/title_activity_fragment__lista__pc" >
+        </activity>
+        <activity
+            android:name=".UsuariosSQLiteHelper"
+            android:label="@string/title_activity_usuarios_sqlite_helper" >
+        </activity>
+
+        <service
+            android:name=".ServicioDescarga"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".ServicioSubida"
+            android:enabled="true"
+            android:exported="true" >
+        </service>
+    </application>
+
+    <!-- Permisos para la aplicacion -->
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

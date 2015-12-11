@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:cl="http://schemas.android.com/apk/res/com.example.androidapp.widgets"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:showDividers="middle" >
+
+    <Button
+        android:id="@+id/button_tres"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="50dp"
+        
+        android:background="@drawable/ic_entrar" />
+
+         <Button
+
+
+        android:id="@+id/button_registrar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp"
+        
+        android:background="@drawable/botonregistro" />
+        
+      <!--    
+         
+       <android.support.design.widget.FloatingActionButton
+        android:id="@+id/button_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_registrar"
+        />
+      
+
+       -->
+        
+</LinearLayout>

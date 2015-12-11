@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FTPretty</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_fragment__detalle">Fragment_Detalle</string>
+    <string name="title_activity_fragment__estatico">Fragment_Estatico</string>
+    <string name="title_activity_activity_dos">ActivityDos</string>
+    <string name="title_activity_fragment_uno">FragmentUno</string>
+    <string name="title_activity_asyntask_">Asyntask_Activity</string>
+    <string name="title_activity_activity__explorer">FTPretty</string>
+    <string name="title_activity_fragment__lista__movil">Fragment_Lista_Movil</string>
+    <string name="title_activity_fragment__lista__pc">Fragment_Lista_Pc</string>
+    <string name="title_activity_asynctask__bbdd">Asynctask_BBDD</string>
+    <string name="title_activity_asynctask__list">Asynctask_List</string>
+    <string name="title_activity_usuarios_sqlite_helper">UsuariosSQLiteHelper</string>
+    <string name="str_cnt_mnu_desc">Descargar</string>
+    <string name="str_cnt_mnu_delete">Borrar</string>
+    <string name="str_cnt_mnu_subida_movil">Enviar a tu pc</string>
+    <string name="str_cnt_mnu_delete_movil">Borrar</string>
+    <string name="str_cnt_mnu_share">Comparte</string>
+    <string name="str_cnt_abrir">Abrir</string>
+    <string name="btn_texto">Abrir fichero</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.p1.Activity_Explorer" >
+
+    <item
+        android:id="@+id/cnt_mnu_abrir"
+        android:title="@string/str_cnt_abrir"/>
+    <item
+        android:id="@+id/cnt_mnu_subida_movil"
+        android:title="@string/str_cnt_mnu_subida_movil"/>
+    <item
+        android:id="@+id/cnt_mnu_delete_movil"
+        android:title="@string/str_cnt_mnu_delete_movil"/>
+    <item
+        android:id="@+id/cnt_mnu_share_movil"
+        android:title="@string/str_cnt_mnu_share"/>
+
+</menu>
